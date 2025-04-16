@@ -1,0 +1,125 @@
+/* Background for the whole container */
+.home-form-container {
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(238, 238, 238, 0.7), rgba(255, 255, 255, 1)), url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* Radial gradient with texture */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center;
+  }
+  
+  /* Styling the form container */
+  .home-form {
+    background: rgba(255, 255, 255, 0.85); /* Semi-transparent white background */
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 440px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px); /* Adding blur effect for a frosted glass look */
+  }
+  
+  /* Hover effect for form */
+  .home-form:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Styling for each section inside the form */
+  .form-section {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  
+  /* Label styling */
+  .form-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #0277bd; /* Deep blue color */
+    margin-bottom: 10px;
+  }
+  
+  /* Icon for toggle action */
+  .toggle-icon {
+    font-size: 1.3rem;
+    color: #0288d1; /* Lighter blue for hover effect */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Hover effect for icon */
+  .toggle-icon:hover {
+    transform: scale(1.15);
+  }
+  
+  /* Styling for select dropdown */
+  select {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 1rem;
+    border: 1px solid #81d4fa; /* Light blue border */
+    border-radius: 10px;
+    background-color: #f0f4f8; /* Light grayish background */
+    color: #0277bd; /* Deep blue text */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    appearance: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.03);
+  }
+  
+  /* Focus effect for select dropdown */
+  select:focus {
+    outline: none;
+    border-color: #0288d1; /* Blue border on focus */
+    background-color: #ffffff; /* White background on focus */
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #0288d1; /* Soft blue button */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for button */
+  button:hover {
+    background-color: #0277bd; /* Slightly darker blue on hover */
+    transform: translateY(-1px);
+  }
+  
+  /* Disabled button state */
+  button:disabled {
+    background-color: #90caf9; /* Light blue when disabled */
+    cursor: not-allowed;
+  }
+  
+  /* Responsive design for small screens */
+  @media (max-width: 600px) {
+    .home-form {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .form-label {
+      font-size: 1rem;
+    }
+  
+    select,
+    button {
+      padding: 10px;
+    }
+  }
+  

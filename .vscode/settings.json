@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "my-springboot-app/src/main/java/com/backend/demo/Backend/Backend/src/main/java/com/example/Backend",
+        "my-springboot-app/src/main/java/com/backend/Backend/src/main/java/com/example/Backend",
+        "my-springboot-app/src/main/java/com/backend/Backend/Backend/src/main/java/com/example/Backend",
+        "my-springboot-app/src/main/java/Backend/Backend/src/main/java/com/example/Backend",
+        "Backend/src/main/test/java/com/example/Backend",
+        "Backend/src/main/java/com/example/Backend",
+        "my-springboot-app/src/main/java/com/backend"
+    ]
+}
