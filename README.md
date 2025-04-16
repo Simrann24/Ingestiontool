@@ -16,8 +16,9 @@ Logging and error reporting for ingestion status.
 
 Integration-ready for monitoring (e.g., Prometheus, Grafana).
 
-Installation
-Clone the repo: git clone 
+## Installation
+
+Clone the repo: git clone https://github.com/Simrann24/Ingestiontool.git 
 
 
 ## License
